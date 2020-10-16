@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Partition_Info>
+<Part Sel="0" PartitionName="fastboot" FlashType="emmc" FileSystem="none" Start="0" Length="0" SelectFile=""/>
+<Part Sel="1" PartitionName="" FlashType="emmc" FileSystem="none" Start="0" Length="1M" SelectFile="D:\work\aosp\HarmonyOS\checkin\hmos_images\ipcamera_hi3516dv300\u-boot-hi3516dv300.bin"/>
+<Part Sel="1" PartitionName="" FlashType="emmc" FileSystem="none" Start="1M" Length="6M" SelectFile="D:\work\aosp\HarmonyOS\checkin\hmos_images\ipcamera_hi3516dv300\light_ai_release_10_10\OHOS_Image.bin"/>
+<Part Sel="1" PartitionName="" FlashType="emmc" FileSystem="none" Start="7M" Length="15M" SelectFile="D:\work\aosp\HarmonyOS\checkin\hmos_images\ipcamera_hi3516dv300\light_ai_release_10_10\rootfs.img"/>
+<Part Sel="1" PartitionName="" FlashType="emmc" FileSystem="none" Start="22M" Length="52M" SelectFile="D:\work\aosp\HarmonyOS\checkin\hmos_images\ipcamera_hi3516dv300\light_ai_release_10_10\userfs.img"/>
+</Partition_Info>
