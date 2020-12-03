@@ -1,0 +1,131 @@
+./bin/acl_person_detection_app --iteration=100
+OHOS # [ERR]Unsupported API sysconf
+[ERR]Unsupport syscall ID: 242 nArgs: 0
+[ERR]Unsupported API sysconf
+[ERR]Unsupport syscall ID: 242 nArgs: 0
+
+bin/acl_person_detection_app
+
+do_setup enter 
+Threads : 1
+Target : NEON
+Data type : QASYMM8
+Data layout : NCHW
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+Fast math enabled? : false
+Data path : /sdcard
+Image file : /sdcard/person_detect_quantized_model/person_image_data.npy
+Iteration : 100
+
+inference begin @ 83776646
+inference end @ 87472841
+inference consume 3696195(us)
+
+
+
+average inference for 100 is 36961.9(us)
+
+Test passed
+
+OHOS # 
+OHOS # ./bin/acl_person_detection_app --iteration=100
+OHOS # [ERR]Unsupported API sysconf
+[ERR]Unsupport syscall ID: 242 nArgs: 0
+[ERR]Unsupported API sysconf
+[ERR]Unsupport syscall ID: 242 nArgs: 0
+
+bin/acl_person_detection_app
+
+do_setup enter 
+Threads : 1
+Target : NEON
+Data type : QASYMM8
+Data layout : NCHW
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+Fast math enabled? : false
+Data path : /sdcard
+Image file : /sdcard/person_detect_quantized_model/person_image_data.npy
+Iteration : 100
+
+inference begin @ 113346430
+inference end @ 117044579
+inference consume 3698149(us)
+
+
+
+average inference for 100 is 36981.5(us)
+
+Test passed
+
+OHOS # ./bin/acl_person_detection_app --iteration=100
+OHOS # [ERR]Unsupported API sysconf
+[ERR]Unsupport syscall ID: 242 nArgs: 0
+[ERR]Unsupported API sysconf
+[ERR]Unsupport syscall ID: 242 nArgs: 0
+
+bin/acl_person_detection_app
+
+do_setup enter 
+Threads : 1
+Target : NEON
+Data type : QASYMM8
+Data layout : NCHW
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+Fast math enabled? : false
+Data path : /sdcard
+Image file : /sdcard/person_detect_quantized_model/person_image_data.npy
+Iteration : 100
+
+inference begin @ 138570042
+inference end @ 142270130
+inference consume 3700088(us)
+
+
+
+average inference for 100 is 37000.9(us)
+
+Test passed
+
+OHOS # 
+OHOS # ./bin/acl_person_detection_app --iteration=100
+OHOS # [ERR]Unsupported API sysconf
+[ERR]Unsupport syscall ID: 242 nArgs: 0
+[ERR]Unsupported API sysconf
+[ERR]Unsupport syscall ID: 242 nArgs: 0
+
+bin/acl_person_detection_app
+
+do_setup enter 
+Threads : 1
+Target : NEON
+Data type : QASYMM8
+Data layout : NCHW
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+Fast math enabled? : false
+Data path : /sdcard
+Image file : /sdcard/person_detect_quantized_model/person_image_data.npy
+Iteration : 100
+
+inference begin @ 164825931
+inference end @ 168521784
+inference consume 3695853(us)
+
+
+
+average inference for 100 is 36958.5(us)
+
+Test passed
+
+OHOS # 

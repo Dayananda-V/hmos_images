@@ -1,0 +1,70 @@
+OHOS # ./bin/ai_person_detection_app_1 200
+OHOS # output_storage[0]:19
+output_storage[1]:93
+output_storage[2]:224
+The maximum position in output vector is: 2, with max-value 224.000000.
+timing: 26.000000 ms (create), 0.000000 ms (set_input), 32.000000 ms (run), 0.000000 ms (get_output), 0.000000 ms (destroy)
+task -a
+
+  PID  PPID PGID       UID  Status VirtualMem ShareMem PhysicalMem CPUUSE CPUUSE10s CPUUSE1s Policy Priority MTID TaskTotal   Mode  PName
+    1    -1    1         0    Pend   0x2ba000  0x9b000     0x39555    0.0       0.0      0.0     RR       28   23         1   user  init                            
+    2    -1    2         0    Pend   0xd4e134        0    0xd4e134    1.0       1.1      1.4     RR        0    0        20 kernel  KProcess                        
+    3     1    1         2 Running   0x1bc000  0x38000     0x18487    0.0       0.0      0.0     RR       15    4         3   user  shell                           
+    5     1    5         7    Pend   0x559000  0xfc000    0x169bb5    0.1       0.0      0.0     RR       28   26         9   user  foundation                      
+    6     1    6         8    Pend   0x331000  0xb7000     0x50911    0.0       0.0      0.0     RR       28   35         4   user  bundle_daemon                   
+    7     1    7         1    Pend   0xd5f000 0x12e000    0x20e3b6    0.0       0.0      0.0     RR       28   39         4   user  appspawn                        
+    8     1    8         5    Pend   0x49a000  0xc8000     0x88a69    0.0       0.0      0.0     RR       28   40         1   user  media_server                    
+    9     1    9         0    Pend   0x518000  0xe9000     0x9190e    0.0       0.1      0.1     RR       28   44         6   user  wms_server                      
+   18     3   18         2 Running   0x46b000  0x83000    0x1de9a1    0.0      13.5     99.4     RR       15   50         1   user  ai_person_detection_app_1       
+
+  TID  PID Affi CPU       Status StackSize WaterLine  StackPoint  TopOfStack EventMask       SemID Policy Priority    MEMUSE  TaskName
+   23    1  0x3  -1         Pend    0x3000     0xe14  0x407eebb8  0x407ebf28       0x1  0xffffffff     RR       31   0x1b32c  init                            
+    0    2  0x3  -1         Pend    0x1000     0x274  0x406e4d98  0x406e3f78      0xff  0xffffffff     RR        5         0  ResourcesTask                   
+    2    2  0x1  -1         Pend    0x4000     0x2dc  0x4070fe80  0x4070c080         0  0xffffffff     RR        0         0  Swt_Task                        
+    3    2  0x3  -1         Pend    0x4000     0x1e4  0x40717128  0x40713308       0x1  0xffffffff     RR        1         0  system_wq                       
+    5    2  0x2  -1         Pend    0x4000     0x22c  0x40721a60  0x4071dc60         0  0xffffffff     RR        0         0  Swt_Task                        
+    7    2  0x3  -1         Pend    0x4000     0x21c  0x4079a0f8  0x40796310       0xf  0xffffffff     RR        5         0  USB_GIANT_Task                  
+    8    2  0x3  -1         Pend    0x3000     0x1dc  0x40728de8  0x40725fc0       0x7  0xffffffff     RR        5         0  himci_Task                      
+    9    2  0x3  -1     PendTime    0x1800     0x3f4  0x4072a8a0  0x407292f8       0x4  0xffffffff     RR        6         0  mmc_data_thread                 
+   10    2  0x3  -1         Pend   0x20000     0x1dc  0x40771328  0x40751500       0x1  0xffffffff     RR        3         0  eth_irq_Task                    
+   11    2  0x3  -1     PendTime    0x6000     0x2dc  0x40736e80  0x407310a8         0  0xffffffff     RR        5         0  tcpip_thread                    
+   12    2  0x3  -1     PendTime    0x1800     0x2ec  0x4073b0e0  0x40739b38       0x4  0xffffffff     RR        6         0  mmc_data_thread                 
+   13    2  0x3  -1         Pend    0x3000     0x30c  0x407462a0  0x40743490       0xf  0xffffffff     RR       12         0  bcache_async_task               
+   14    2  0x3  -1         Pend    0x3000     0x42c  0x407adbc8  0x407aadb8       0xf  0xffffffff     RR       12         0  bcache_async_task               
+   15    2  0x3  -1         Pend    0x4000     0x21c  0x4079e108  0x4079a320       0xf  0xffffffff     RR        1         0  USB_NGIAN_ISOC_Task             
+   16    2  0x3  -1         Pend    0x4000     0x21c  0x407a2120  0x4079e338       0xf  0xffffffff     RR        2         0  USB_NGIAN_BULK_Task             
+   17    2  0x3  -1         Pend    0x4000     0x6ac  0x407a6130  0x407a2348       0xf  0xffffffff     RR        5     0xbb4  USB_EXPLR_Task                  
+   18    2  0x3  -1         Pend    0x4000     0x21c  0x407aa148  0x407a6360       0xf  0xffffffff     RR        5         0  USB_CXFER_Task                  
+   19    2  0x3  -1     PendTime    0x4000     0x314  0x407c8220  0x407c4438       0x1  0xffffffff     RR       10         0  hi_vdec_thread                  
+   20    2  0x1  -1         Pend    0x2000     0x1fc  0x407d8c88  0x407d6e80    0x2000  0xffffffff     RR        4         0  hisi_frw                        
+   21    2  0x3  -1         Pend    0x6000     0x254  0x407e0928  0x407dab78       0x1  0xffffffff     RR        2         0  HdfTouchEventHandler            
+   22    2  0x3  -1         Pend    0x4000     0x334  0x407eaee0  0x407e70e8       0x6  0xffffffff     RR        9      0x38  SendToSer                       
+    4    3  0x3  -1         Pend    0x3000     0xf1c  0x407f47f8  0x407f1b08       0x1  0xffffffff     RR       31    0x7484  shell                           
+   24    3  0x3   0      Running    0x3000     0xc6c  0x407fb2d0  0x407f8650       0x1  0xffffffff     RR       31   0x3f120  ShellTask                       
+   25    3  0x3  -1         Pend    0x3000     0x854  0x407fe270  0x407fb668       0x1  0xffffffff     RR       31     0x13c  ShellEntry                      
+   26    5  0x3  -1         Pend    0x3000     0xe14  0x425eaca0  0x425e8010       0x1  0xffffffff     RR       31   0x1f618  foundation                      
+   27    5  0x3  -1         Pend    0x3000     0x54c  0x42746c90  0x42744010         0  0xffffffff     RR       15    0x30b4  thread1                         
+   28    5  0x3  -1         Pend    0x3000     0x3dc  0x4274ac90  0x42748010         0  0xffffffff     RR       15         0  thread2                         
+   29    5  0x3  -1         Pend    0x3000     0x5c4  0x4274ec90  0x4274c010       0x1  0xffffffff     RR       15     0x1b0  thread3                         
+   30    5  0x3  -1         Pend    0x3000     0xad4  0x42756c90  0x42754010       0x1  0xffffffff     RR       15    0x57c0  thread4                         
+   31    5  0x3  -1         Pend    0x3000     0x80c  0x4275ac90  0x42758010       0x1  0xffffffff     RR       15     0xae4  dtbschedsrv                     
+   32    5  0x3  -1         Pend    0x3000     0x5c4  0x42762c38  0x42760010       0x1  0xffffffff     RR        7    0x3140  thread6                         
+   33    5  0x3  -1         Pend    0x3000     0x4fc  0x4276ac38  0x42768010         0  0xffffffff     RR        7      0xd0  thread7                         
+   34    5  0x3  -1         Pend    0x3000     0x54c  0x42772c38  0x42770010         0  0xffffffff     RR        7         0  thread8                         
+   35    6  0x3  -1         Pend    0x3000     0xe14  0x42792ca0  0x42790010       0x1  0xffffffff     RR       31    0x6b34  bundle_daemon                   
+   36    6  0x3  -1         Pend    0x3000     0xb7c  0x427bec90  0x427bc010       0x1  0xffffffff     RR       15    0x3544  thread1                         
+   37    6  0x3  -1         Pend    0x3000     0x54c  0x427d2c38  0x427d0010         0  0xffffffff     RR        7    0x3144  thread2                         
+   38    6  0x3  -1         Pend    0x3000     0x3dc  0x427d6c38  0x427d4010         0  0xffffffff     RR        7         0  thread3                         
+   39    7  0x3  -1         Pend    0x3000     0xe14  0x4281aca0  0x42818010       0x1  0xffffffff     RR       31   0x231f8  appspawn                        
+   41    7  0x3  -1         Pend    0x3000     0x54c  0x42b46c90  0x42b44010         0  0xffffffff     RR       22    0x31bc  thread1                         
+   42    7  0x3  -1         Pend    0x3000     0x54c  0x42b5ec38  0x42b5c010         0  0xffffffff     RR        7    0x3144  thread2                         
+   43    7  0x3  -1         Pend    0x3000     0x3dc  0x42b62c38  0x42b60010         0  0xffffffff     RR        7         0  thread3                         
+   40    8  0x3  -1         Pend    0x3000     0xf34  0x4296ac38  0x42968010       0x1  0xffffffff     RR       31    0x92cc  media_server                    
+   44    9  0x3  -1        Delay    0x3000     0xe14  0x42b66cc8  0x42b64010       0x1  0xffffffff     RR       31   0x11e08  wms_server                      
+   45    9  0x3  -1         Pend    0x3000     0x54c  0x42bbac38  0x42bb8010         0  0xffffffff     RR        7    0x3130  thread3                         
+   46    9  0x3  -1         Pend    0x3000     0x56c  0x42bb6c90  0x42bb4010         0  0xffffffff     RR       22    0x31bc  thread2                         
+   47    9  0x3  -1     PendTime    0x3000     0x544  0x42beec10  0x42bec010         0    0x21023f     RR       31      0x2c  thread4                         
+   48    9  0x3  -1         Pend    0x3000     0x3dc  0x42bf2c38  0x42bf0010         0  0xffffffff     RR        7         0  thread5                         
+   49    9  0x3  -1         Pend    0x3000     0x384  0x42bf6c90  0x42bf4010         0  0xffffffff     RR       31         0  thread6                         
+   50   18  0x3   1      Running    0x3000     0xe14  0x42bfed80  0x42bfc010       0x1  0xffffffff     RR       31    0x4614  ai_person_detection_app_1       
+OHOS # Execution time chrono for 100 run consume: 29.253891 ms
