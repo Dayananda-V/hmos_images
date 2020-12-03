@@ -1,0 +1,815 @@
+OHOS # ./bin/acl_person_detection_app --iteration=100
+OHOS # [ERR]Unsupported API sysconf
+[ERR]Unsupport syscall ID: 242 nArgs: 0
+[ERR]Unsupported API sysconf
+[ERR]Unsupport syscall ID: 242 nArgs: 0
+
+bin/acl_person_detection_app
+
+do_setup enter 
+Threads : 1
+Target : NEON
+Data type : QASYMM8
+Data layout : NCHW
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+Fast math enabled? : false
+Data path : /sdcard
+Image file : /sdcard/person_detect_quantized_model/person_image_data.npy
+Iteration : 100
+
+inference begin @ 103252363
+inference end @ 106947156
+inference consume 3694793(us)
+
+
+
+average inference for 100 is 36947.9(us)
+
+Test passed
+
+OHOS # 
+OHOS # ./bin/acl_person_detection_app --iteration=100
+OHOS # [ERR]Unsupported API sysconf
+[ERR]Unsupport syscall ID: 242 nArgs: 0
+[ERR]Unsupported API sysconf
+[ERR]Unsupport syscall ID: 242 nArgs: 0
+
+bin/acl_person_detection_app
+
+do_setup enter 
+Threads : 1
+Target : NEON
+Data type : QASYMM8
+Data layout : NCHW
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+Fast math enabled? : false
+Data path : /sdcard
+Image file : /sdcard/person_detect_quantized_model/person_image_data.npy
+Iteration : 100
+
+inference begin @ 132907622
+inference end @ 136606229
+inference consume 3698607(us)
+
+
+
+average inference for 100 is 36986.1(us)
+
+Test passed
+
+OHOS # 
+OHOS # ./bin/acl_person_detection_app --iteration=100
+OHOS # [ERR]Unsupported API sysconf
+[ERR]Unsupport syscall ID: 242 nArgs: 0
+[ERR]Unsupported API sysconf
+[ERR]Unsupport syscall ID: 242 nArgs: 0
+
+bin/acl_person_detection_app
+
+do_setup enter 
+Threads : 1
+Target : NEON
+Data type : QASYMM8
+Data layout : NCHW
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+Fast math enabled? : false
+Data path : /sdcard
+Image file : /sdcard/person_detect_quantized_model/person_image_data.npy
+Iteration : 100
+
+inference begin @ 156096445
+inference end @ 159794055
+inference consume 3697610(us)
+
+
+
+average inference for 100 is 36976.1(us)
+
+Test passed
+
+OHOS # 
+OHOS # 
+OHOS # ./bin/acl_person_detection_app --iteration=100
+OHOS # [ERR]Unsupported API sysconf
+[ERR]Unsupport syscall ID: 242 nArgs: 0
+[ERR]Unsupported API sysconf
+[ERR]Unsupport syscall ID: 242 nArgs: 0
+
+bin/acl_person_detection_app
+
+do_setup enter 
+Threads : 1
+Target : NEON
+Data type : QASYMM8
+Data layout : NCHW
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+Fast math enabled? : false
+Data path : /sdcard
+Image file : /sdcard/person_detect_quantized_model/person_image_data.npy
+Iteration : 100
+
+inference begin @ 194298821
+inference end @ 198003726
+inference consume 3704905(us)
+
+
+
+average inference for 100 is 37049.1(us)
+
+Test passed
+
+OHOS # ./bin/acl_person_detection_app --iteration=100
+OHOS # [ERR]Unsupported API sysconf
+[ERR]Unsupport syscall ID: 242 nArgs: 0
+[ERR]Unsupported API sysconf
+[ERR]Unsupport syscall ID: 242 nArgs: 0
+
+bin/acl_person_detection_app
+
+do_setup enter 
+Threads : 1
+Target : NEON
+Data type : QASYMM8
+Data layout : NCHW
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+Fast math enabled? : false
+Data path : /sdcard
+Image file : /sdcard/person_detect_quantized_model/person_image_data.npy
+Iteration : 100
+
+inference begin @ 227138554
+inference end @ 230833254
+inference consume 3694700(us)
+
+
+
+average inference for 100 is 36947(us)
+
+Test passed
+
+OHOS # 
+OHOS # 
+OHOS # ./bin/tflite_person_detection_app 100
+OHOS # running tflite person_detection model for 100 loop
+[persion_detection_test_interface] start Init
+12 bytes lost due to alignment. To avoid this loss, please make sure the tensor_arena is 16 bytes aligned.
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 250, no_person_score is 44
+timing: 4.00000 ms (Init), 1.00000 ms (SetInput), 122.00000 ms (Run), 1.00000 ms (GetOutputs
+person image data.  unknown person score: 43, person score: 250, no person score: 44
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 107, no_person_score is 215
+no person image data.  unknown person score: 14, person score: 107, no person score: 215
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+127.  unknown person score: 21, person score: 92, no person score: 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+average consume run delay by 122.00000
+
+OHOS # 
+OHOS # ./bin/tflite_person_detection_app 100
+OHOS # running tflite person_detection model for 100 loop
+[persion_detection_test_interface] start Init
+12 bytes lost due to alignment. To avoid this loss, please make sure the tensor_arena is 16 bytes aligned.
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 250, no_person_score is 44
+timing: 3.00000 ms (Init), 1.00000 ms (SetInput), 123.00000 ms (Run), 0.00000 ms (GetOutputs
+person image data.  unknown person score: 43, person score: 250, no person score: 44
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 107, no_person_score is 215
+no person image data.  unknown person score: 14, person score: 107, no person score: 215
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+127.  unknown person score: 21, person score: 92, no person score: 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+average consume run delay by 122.00000
+
+OHOS # 
+OHOS # ./bin/tflite_person_detection_app 100
+OHOS # running tflite person_detection model for 100 loop
+[persion_detection_test_interface] start Init
+12 bytes lost due to alignment. To avoid this loss, please make sure the tensor_arena is 16 bytes aligned.
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 250, no_person_score is 44
+timing: 3.00000 ms (Init), 1.00000 ms (SetInput), 122.00000 ms (Run), 1.00000 ms (GetOutputs
+person image data.  unknown person score: 43, person score: 250, no person score: 44
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 107, no_person_score is 215
+no person image data.  unknown person score: 14, person score: 107, no person score: 215
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+127.  unknown person score: 21, person score: 92, no person score: 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+[persion_detection_test_interface] start set input
+[persion_detection_test_interface] GetOutputs person_score is 92, no_person_score is 224
+average consume run delay by 122.00000
